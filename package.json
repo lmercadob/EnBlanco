@@ -1,0 +1,19 @@
+{
+  "name": "com.phonegap.helloworld",
+  "version": "1.0.0",
+  "displayName": "EnBlanco",
+  "cordova": {
+    "platforms": [
+      "browser",
+      "android"
+    ],
+    "plugins": {
+      "cordova-sqlite-storage": {}
+    }
+  },
+  "dependencies": {
+    "cordova-browser": "~5.0.4",
+    "cordova-sqlite-storage": "~2.5.0",
+    "cordova-android": "~7.1.1"
+  }
+}
